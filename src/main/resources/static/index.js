@@ -7,7 +7,7 @@ function hideURLbar() {
 }
 
 new Vue({
-    el: '#mian',
+    el: '#main',
     data: {
         nowYear: new Date().getFullYear(),
         logindata: {

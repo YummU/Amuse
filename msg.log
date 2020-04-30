@@ -1,11 +1,339 @@
-2020-04-29 16:45:47.879  INFO 18972 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 18972 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
-2020-04-29 16:45:47.901  INFO 18972 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
-2020-04-29 16:45:49.789  WARN 18972 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
-2020-04-29 16:45:50.755  INFO 18972 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-04-29 16:45:51.789  INFO 18972 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-04-29 16:45:51.834  INFO 18972 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-04-29 16:45:51.909  INFO 18972 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-04-29 16:45:52.136  INFO 18972 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-04-29 16:45:52.256  INFO 18972 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-04-29 16:45:52.454  INFO 18972 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-04-29 16:45:53.092  INFO 18972 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.874 seconds (JVM running for 8.804)
+2020-04-30 11:34:55.749  INFO 15844 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 15844 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 11:34:55.764  INFO 15844 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 11:34:57.685  WARN 15844 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 11:35:01.029  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 11:35:02.861  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 11:35:02.955  INFO 15844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 11:35:03.095  INFO 15844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 11:35:03.451  INFO 15844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 11:35:03.642  INFO 15844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 11:35:04.017  INFO 15844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 11:35:05.274  INFO 15844 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 11.102 seconds (JVM running for 16.813)
+2020-04-30 11:37:18.676  INFO 21032 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 21032 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 11:37:18.686  INFO 21032 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 11:37:20.905  WARN 21032 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 11:37:21.971  INFO 21032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 11:37:22.094  INFO 21032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 11:37:22.146  INFO 21032 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 11:37:22.250  INFO 21032 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 11:37:22.478  INFO 21032 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 11:37:22.609  INFO 21032 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 11:37:22.837  INFO 21032 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 11:37:23.599  INFO 21032 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.659 seconds (JVM running for 8.151)
+2020-04-30 12:13:30.212  WARN 21032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m37s960ms529µs400ns).
+2020-04-30 12:35:10.209  WARN 21032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m39s967ms533µs).
+2020-04-30 13:31:07.781  WARN 21032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m27s537ms777µs200ns).
+2020-04-30 13:44:59.550  INFO 9248 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 9248 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:44:59.556  INFO 9248 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:45:01.876  WARN 9248 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:45:03.239  INFO 9248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:45:03.367  INFO 9248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:45:03.417  INFO 9248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:45:03.519  INFO 9248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:45:03.796  INFO 9248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:45:03.930  INFO 9248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:45:04.110  INFO 9248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:45:04.811  INFO 9248 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 6.033 seconds (JVM running for 9.006)
+2020-04-30 13:46:56.737  INFO 24116 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 24116 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:46:56.742  INFO 24116 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:46:59.450  WARN 24116 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:47:01.608  INFO 24116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:47:02.793  INFO 24116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:47:03.488  INFO 24116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:47:03.751  INFO 24116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:47:04.133  INFO 24116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:47:04.498  INFO 24116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:47:05.721  INFO 24116 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:47:07.575  INFO 24116 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 14.351 seconds (JVM running for 41.557)
+2020-04-30 13:47:38.391  INFO 23804 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 23804 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:47:38.396  INFO 23804 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:47:39.736  WARN 23804 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:47:40.873  INFO 23804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:47:40.999  INFO 23804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:47:41.040  INFO 23804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:47:41.112  INFO 23804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:47:41.317  INFO 23804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:47:41.454  INFO 23804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:47:41.673  INFO 23804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:47:42.274  INFO 23804 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 4.666 seconds (JVM running for 7.416)
+2020-04-30 13:48:34.909  INFO 4804 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 4804 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:48:34.913  INFO 4804 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:48:35.755  WARN 4804 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:48:36.961  INFO 4804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:48:37.100  INFO 4804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:48:37.160  INFO 4804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:48:37.288  INFO 4804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:48:37.560  INFO 4804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:48:37.725  INFO 4804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:48:37.933  INFO 4804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:48:38.784  INFO 4804 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.422 seconds (JVM running for 7.681)
+2020-04-30 13:54:46.220  INFO 2100 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 2100 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:54:46.225  INFO 2100 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:54:47.801  WARN 2100 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:54:49.198  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:54:49.325  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:54:49.364  INFO 2100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:54:49.444  INFO 2100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:54:49.673  INFO 2100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:54:49.776  INFO 2100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:54:49.933  INFO 2100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:54:50.693  INFO 2100 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.212 seconds (JVM running for 8.118)
+2020-04-30 13:57:53.114  INFO 22600 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 22600 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 13:57:53.118  INFO 22600 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 13:57:53.984  WARN 22600 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 13:57:55.072  INFO 22600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 13:57:55.230  INFO 22600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 13:57:55.278  INFO 22600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 13:57:55.375  INFO 22600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 13:57:55.619  INFO 22600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 13:57:55.746  INFO 22600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 13:57:55.946  INFO 22600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 13:57:56.618  INFO 22600 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.15 seconds (JVM running for 7.741)
+2020-04-30 14:04:02.360  INFO 24248 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 24248 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 14:04:02.363  INFO 24248 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 14:04:03.176  WARN 24248 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 14:04:04.046  INFO 24248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 14:04:04.157  INFO 24248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 14:04:04.193  INFO 24248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 14:04:04.249  INFO 24248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 14:04:04.413  INFO 24248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 14:04:04.509  INFO 24248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 14:04:04.656  INFO 24248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 14:04:05.178  INFO 24248 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 4.32 seconds (JVM running for 6.414)
+2020-04-30 14:07:18.192  INFO 21312 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 21312 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 14:07:18.194  INFO 21312 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 14:07:18.902  WARN 21312 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 14:07:19.837  INFO 21312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 14:07:19.974  INFO 21312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 14:07:20.017  INFO 21312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 14:07:20.096  INFO 21312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 14:07:20.282  INFO 21312 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 14:07:20.387  INFO 21312 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 14:07:20.561  INFO 21312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 14:07:21.200  INFO 21312 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.572 seconds (JVM running for 7.694)
+2020-04-30 14:36:48.519  INFO 22292 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 22292 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 14:36:48.529  INFO 22292 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 14:36:49.746  WARN 22292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 14:36:50.925  INFO 22292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 14:36:51.062  INFO 22292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 14:36:51.105  INFO 22292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 14:36:51.175  INFO 22292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 14:36:51.393  INFO 22292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 14:36:51.496  INFO 22292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 14:36:51.654  INFO 22292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 14:36:52.177  INFO 22292 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 4.455 seconds (JVM running for 7.337)
+2020-04-30 14:45:04.377  INFO 3432 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 3432 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 14:45:04.381  INFO 3432 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 14:45:06.104  WARN 3432 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 14:45:06.947  INFO 3432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 14:45:07.057  INFO 3432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 14:45:07.091  INFO 3432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 14:45:07.147  INFO 3432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 14:45:07.333  INFO 3432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 14:45:07.442  INFO 3432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 14:45:07.605  INFO 3432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 14:45:08.192  INFO 3432 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 5.366 seconds (JVM running for 7.765)
+2020-04-30 15:31:56.642  WARN 3432 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s357ms783µs900ns).
+2020-04-30 16:00:25.995  INFO 2660 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 2660 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 16:00:25.998  INFO 2660 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 16:00:28.210  WARN 2660 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 16:00:29.408  INFO 2660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 16:00:29.581  INFO 2660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 16:00:29.639  INFO 2660 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 16:00:29.741  INFO 2660 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 16:00:29.993  INFO 2660 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 16:00:30.141  INFO 2660 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 16:00:30.419  INFO 2660 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 16:00:31.351  INFO 2660 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 6.967 seconds (JVM running for 10.182)
+2020-04-30 16:24:14.125 ERROR 2660 --- [http-nio-8088-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.InvalidMediaTypeException: Invalid mime type "charset=utf-8": does not contain '/'] with root cause
+
+org.springframework.util.InvalidMimeTypeException: Invalid mime type "charset=utf-8": does not contain '/'
+	at org.springframework.util.MimeTypeUtils.parseMimeTypeInternal(MimeTypeUtils.java:216) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils$ConcurrentLruCache.get(MimeTypeUtils.java:467) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils.parseMimeType(MimeTypeUtils.java:200) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:584) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaTypes(MediaType.java:613) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getAcceptedMediaTypes(WelcomePageHandlerMapping.java:88) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getHandlerInternal(WelcomePageHandlerMapping.java:77) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162]
+
+2020-04-30 16:27:28.954 ERROR 2660 --- [http-nio-8088-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.InvalidMediaTypeException: Invalid mime type "charset=utf-8": does not contain '/'] with root cause
+
+org.springframework.util.InvalidMimeTypeException: Invalid mime type "charset=utf-8": does not contain '/'
+	at org.springframework.util.MimeTypeUtils.parseMimeTypeInternal(MimeTypeUtils.java:216) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils$ConcurrentLruCache.get(MimeTypeUtils.java:467) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils.parseMimeType(MimeTypeUtils.java:200) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:584) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaTypes(MediaType.java:613) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getAcceptedMediaTypes(WelcomePageHandlerMapping.java:88) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getHandlerInternal(WelcomePageHandlerMapping.java:77) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162]
+
+2020-04-30 16:29:55.271 ERROR 2660 --- [http-nio-8088-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.InvalidMediaTypeException: Invalid mime type "charset=utf-8": does not contain '/'] with root cause
+
+org.springframework.util.InvalidMimeTypeException: Invalid mime type "charset=utf-8": does not contain '/'
+	at org.springframework.util.MimeTypeUtils.parseMimeTypeInternal(MimeTypeUtils.java:216) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils$ConcurrentLruCache.get(MimeTypeUtils.java:467) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.MimeTypeUtils.parseMimeType(MimeTypeUtils.java:200) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaType(MediaType.java:584) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.MediaType.parseMediaTypes(MediaType.java:613) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getAcceptedMediaTypes(WelcomePageHandlerMapping.java:88) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.getHandlerInternal(WelcomePageHandlerMapping.java:77) ~[spring-boot-autoconfigure-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162]
+
+2020-04-30 16:30:38.312  INFO 20776 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 20776 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 16:30:38.315  INFO 20776 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 16:30:39.156  WARN 20776 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 16:30:40.175  INFO 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 16:30:40.296  INFO 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 16:30:40.337  INFO 20776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 16:30:40.404  INFO 20776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 16:30:40.613  INFO 20776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 16:30:40.719  INFO 20776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 16:30:40.883  INFO 20776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 16:30:41.462  INFO 20776 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 3.705 seconds (JVM running for 7.349)
+2020-04-30 16:35:17.851  INFO 26636 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 26636 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 16:35:17.854  INFO 26636 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 16:35:19.578  WARN 26636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 16:35:20.392  INFO 26636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 16:35:20.499  INFO 26636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 16:35:20.533  INFO 26636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 16:35:20.593  INFO 26636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 16:35:20.768  INFO 26636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 16:35:20.863  INFO 26636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 16:35:21.004  INFO 26636 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 16:35:21.511  INFO 26636 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 4.182 seconds (JVM running for 6.301)
+2020-04-30 16:37:09.560  INFO 24524 --- [main] c.y.a.amuproject.AmuProjectApplication   : Starting AmuProjectApplication on DESKTOP-UMPS652 with PID 24524 (E:\amuself-space\git-amu-project\target\classes started by 60591 in E:\amuself-space\git-amu-project)
+2020-04-30 16:37:09.588  INFO 24524 --- [main] c.y.a.amuproject.AmuProjectApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 16:37:12.581  WARN 24524 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yunf.amu.amuproject]' package. Please check your configuration.
+2020-04-30 16:37:13.639  INFO 24524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 16:37:13.800  INFO 24524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 16:37:13.847  INFO 24524 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 16:37:14.032  INFO 24524 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 16:37:14.220  INFO 24524 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 16:37:15.368  INFO 24524 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 16:37:15.595  INFO 24524 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 16:37:16.378  INFO 24524 --- [main] c.y.a.amuproject.AmuProjectApplication   : Started AmuProjectApplication in 7.731 seconds (JVM running for 11.634)

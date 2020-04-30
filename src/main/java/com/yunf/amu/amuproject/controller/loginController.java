@@ -1,8 +1,8 @@
 package com.yunf.amu.amuproject.controller;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 //@EnableAutoConfiguration
@@ -10,9 +10,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/login")
 public class loginController {
 
-    @RequestMapping("/do")
+    @ResponseBody
+    @RequestMapping(value = "/doLogin" , method = RequestMethod.POST)
     public String doLogin(){
+
+        System.out.println("yes");
         return "index";
     }
+
+    @RequestMapping("/index")
+    public String index(){
+        return "index";
+    }
+
+
 
 }
